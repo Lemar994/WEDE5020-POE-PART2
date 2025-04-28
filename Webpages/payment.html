@@ -1,0 +1,51 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment </title>
+</head>
+<body>
+    <header>
+        <h1>Payment </h1>
+    </header>
+
+    <main>
+        <h2>Complete Your Purchase</h2>
+        <form id="payment-form">
+            <label for="card-name">Name on Card:</label>
+            <input type="text" id="card-name" name="card-name" required>
+
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required>
+
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <h3>Select Your Bank</h3>
+            <div>
+                <input type="radio" id="capitec" name="bank" value="Capitec" required>
+                <label for="capitec">Capitec</label>
+            </div>
+            <div>
+                <input type="radio" id="fnb" name="bank" value="FNB" required>
+                <label for="fnb">FNB</label>
+            </div>
+            <div>
+                <input type="radio" id="nedbank" name="bank" value="Nedbank" required>
+                <label for="nedbank">Nedbank</label>
+            </div>
+
+            <button type="submit">Pay Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vault9. All rights reserved.</p>
+    </footer>
+</body>
+</html>
