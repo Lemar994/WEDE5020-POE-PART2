@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vault's Archive</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/services.css">
+
     <script>
         function addToBag(productName) {
             alert(productName + " has been added to your bag!");
@@ -15,9 +19,20 @@
     </script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Vault's Archive.</h1>
+    <header class="header-main">
+        <div class="header-main-logo">
+            <img src="images/Logo.png" alt="Vault logo">
+            <nav class="header-main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signUp.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <h1>Welcome to Vault's Archive.</h1>
 
     <main>
         <div class="product-container">
@@ -65,7 +80,7 @@
                 <h2>Vault Graphic T-shirt</h2>
                 <img src="images/T-shirt.png" alt="Vault graphic">
                 <p>Colour:Black ,Material: Cotton , Vault graphic</p>
-\                <button class="add-to-bag" onclick="addToBag('Vault graphic')">Add to Bag</button>
+                <button class="add-to-bag" onclick="addToBag('Vault graphic')">Add to Bag</button>
                 <button class="proceed-to-bank" onclick="proceedToBank()">Proceed to Bank</button>
                
             </div>
@@ -91,7 +106,7 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="footer-main">
         <p>&copy; 2024 Vault9. All rights reserved.</p>
     </footer>
 </body>
