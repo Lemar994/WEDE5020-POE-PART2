@@ -1,14 +1,15 @@
+/*Main style for website*/
 :root{
   --site-color-01: red;
   --site-color-01-hover: rgb(163, 5, 5);
   --site-color-02: #f1eeee;
 
 }
-
+/*background colour*/
 body{
   background-color: #000000;
 }
-
+/*heading 1 styling */
 h1 {
   font-size: 26px;
   line-height: 32px;
@@ -18,7 +19,7 @@ h1 {
   text-transform: uppercase;
 
 }
-
+/*paragraph styling*/
 p{
   font-size: 14px;
   line-height: 18px;
@@ -26,7 +27,7 @@ p{
   font-family: Roboto;
 
 }
-
+/*anchor tag styling*/
 a{
   font-size: 26px;
   line-height: 32px;
@@ -34,7 +35,7 @@ a{
   font-family: Roboto;
   cursor: pointer;
 }
-
+/*header styling*/
 .header-main{
   width: 100%;
   height: 60px;
@@ -42,7 +43,7 @@ a{
   display: flex;
   justify-content: space-between
 }
-
+/* styling for logo in header*/
 .header-main-logo{
 width: fit-content;
  height:100%;
@@ -52,35 +53,38 @@ width: fit-content;
   
 
 }
-
+/* styling for logo image */
 .header-main-logo img{
   height: 60px;
   align-self: center;
 }
-
+/*styling for navigation*/
 .header-main-nav{
 
   width: fit-content;
   height: 100%;
     
 }
-
+/* styling for unorder list*/
 .header-main-nav ul{
   list-style: none;
   margin-left: 30px;
 
 
 }
+/* styling for the listed items*/
 .header-main-nav ul li{
   display: inline-block;
   margin-right:10px ;
 }
+/* styling for the listed items achor tags*/
 .header-main-nav ul li a{
   padding:0 10px;
  font-family: Arial, Helvetica, sans-serif;
  line-height: 60px;
 
 }
+/* styling for the footer */
 .footer-main{ 
   width: 100%;
   background-color: #060606;

@@ -1,3 +1,5 @@
+/*styles for the index page*/
+/*styling for the main the background image */
 main{
     width: 100%;
     height: calc(100vh - 60px);
@@ -11,25 +13,25 @@ main{
     align-items: center;
     z-index: 100;
 }
-
+/*styling for heading 1 */
 main .main-intro h1{
     margin-bottom: 20px;
     font-size: 96px;
     line-height: 106px;
 }
-
+/*styling for the main paragraphs */
 main  p{
     font-size: 18px;
     line-height: 30px;
 }
-
+/*styling for the main quotes paragraph and the border line*/
 main .main-quotes p{
    border-left: 4px solid var(--site-color-01);
    padding-left: 20px;
     margin-left: 40px 0;
 }
 
-
+/* styling for the main achor tags*/
 main a{
     margin-top: 30px;
     font-size: 18px;
@@ -44,13 +46,13 @@ main a{
 main .main-quotes p:nth-child(2){
     margin-left: 100px;
 }
-
+/* styling for main-intro*/
 main .main-intro {
    position: relative;
    right: 10vh;
    padding-bottom: 8vh;
 }
-
+/*styling for main-quotes*/
 main .main-quotes {
   position: relative;
   left: 10vh;
